@@ -24,4 +24,17 @@ exports.generateMap = function(zones) {
 };
 
 
+exports.randomCheckoff = function(drillMap, percent){
+  if(!percent) percent = 0.5;
+  for(var zone in drillMap){
+    for(var room in drillMap[zone].rooms){
+      if(!drillMap[zone].rooms[room].status){
+        if (Math.random() <= percent) drillMap[zone].rooms[room].status = true;
+      }
+    }
+  }
+  return drillMap;
+};
+
+
 module.exports = exports;
