@@ -1,0 +1,26 @@
+{
+  "name": "FireAnalytics",
+  "version": "1.0.0",
+  "description": "Fire Captain Isomorphic Anaylitics Engine",
+  "main": "FireAnalytics.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fire-Captain/FireAnalytics.git"
+  },
+  "author": "",
+  "license": "CLOSED SOURCE",
+  "bugs": {
+    "url": "https://github.com/Fire-Captain/FireAnalytics/issues"
+  },
+  "homepage": "https://github.com/Fire-Captain/FireAnalytics",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.3"
+  }
+}
